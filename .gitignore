@@ -1,5 +1,21 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+class Assignment4
+{
+  public static int triangle(int a, int b ,int c)
+  {
+    System.out.println("Please provide three sides of a triangle");
+    a = In.getInt();
+    b = In.getInt();
+    c = In.getInt();
+    System.out.print(a + ", " + b + ", " + c);
+    if (a=0)
+    {
+      System.out.println("the program has ended please retry");
+    }
+     if (b=0)
+    {
+      System.out.println("the program has ended please retry");
+    }
+     if (b=0)
+    {
+      System.out.println("the program has ended please retry");
+    }
